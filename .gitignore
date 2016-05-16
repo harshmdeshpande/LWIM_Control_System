@@ -1,0 +1,15 @@
+*.class
+*.o
+*.jar
+*.dll
+*.exe
+*.xls
+*.project
+*.cproject
+*.ini
+*.classpath
+.settings
+Release/
+Debug/
+log/*.log
+log/*.log.[0-9]

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rob:robot-configuration xmlns:rob="RobotML">
+	<rob:description>ADA_ROBOT</rob:description>
+	<rob:name>ADA_ROBOT</rob:name>
+	<rob:type>dh</rob:type>
+	<rob:dof>6</rob:dof>
+	<rob:dynamics>false</rob:dynamics>
+	<rob:motor>false</rob:motor>
+	<rob:link id="1">
+		<rob:description>LINK1</rob:description>
+		<rob:joint-type>revolute</rob:joint-type>
+		<rob:theta>0.0</rob:theta>
+		<rob:d>0.297</rob:d>
+		<rob:a>0.0345</rob:a>
+		<rob:alpha>-1.5707963267948966</rob:alpha>
+		<rob:theta-min>-2.96</rob:theta-min>
+		<rob:theta-max>+2.96</rob:theta-max>
+		<rob:joint-offset>0</rob:joint-offset>
+		<rob:immobile>false</rob:immobile>
+	</rob:link>
+	<rob:link id="2">
+		<rob:description>LINK1</rob:description>
+		<rob:joint-type>revolute</rob:joint-type>
+		<rob:theta>0.0</rob:theta>
+		<rob:d>0.0</rob:d>
+		<rob:a>0.2</rob:a>
+		<rob:alpha>0.0</rob:alpha>
+		<rob:theta-min>-2.96</rob:theta-min>
+		<rob:theta-max>+2.96</rob:theta-max>
+		<rob:joint-offset>0</rob:joint-offset>
+		<rob:immobile>false</rob:immobile>
+	</rob:link>
+	<rob:link id="3">
+		<rob:description>LINK1</rob:description>
+		<rob:joint-type>revolute</rob:joint-type>
+		<rob:theta>0.0</rob:theta>
+		<rob:d>0.0</rob:d>
+		<rob:a>0.04</rob:a>
+		<rob:alpha>-1.5707963267948966</rob:alpha>
+		<rob:theta-min>-2.96</rob:theta-min>
+		<rob:theta-max>+2.96</rob:theta-max>
+		<rob:joint-offset>0</rob:joint-offset>
+		<rob:immobile>false</rob:immobile>
+	</rob:link>
+	<rob:link id="4">
+		<rob:description>LINK1</rob:description>
+		<rob:joint-type>revolute</rob:joint-type>
+		<rob:theta>0.0</rob:theta>
+		<rob:d>0.2165</rob:d>
+		<rob:a>0.0</rob:a>
+		<rob:alpha>1.5707963267948966</rob:alpha>
+		<rob:theta-min>-2.96</rob:theta-min>
+		<rob:theta-max>+2.96</rob:theta-max>
+		<rob:joint-offset>0</rob:joint-offset>
+		<rob:immobile>false</rob:immobile>
+	</rob:link>
+	<rob:link id="5">
+		<rob:description>LINK1</rob:description>
+		<rob:joint-type>revolute</rob:joint-type>
+		<rob:theta>0.0</rob:theta>
+		<rob:d>0.0</rob:d>
+		<rob:a>0.0</rob:a>
+		<rob:alpha>-1.5707963267948966</rob:alpha>
+		<rob:theta-min>-2.96</rob:theta-min>
+		<rob:theta-max>+2.96</rob:theta-max>
+		<rob:joint-offset>0</rob:joint-offset>
+		<rob:immobile>false</rob:immobile>
+	</rob:link>
+	<rob:link id="6">
+		<rob:description>LINK1</rob:description>
+		<rob:joint-type>revolute</rob:joint-type>
+		<rob:theta>0.0</rob:theta>
+		<rob:d>0.1500</rob:d>
+		<rob:a>0.0</rob:a>
+		<rob:alpha>0.0</rob:alpha>
+		<rob:theta-min>-2.96</rob:theta-min>
+		<rob:theta-max>+2.96</rob:theta-max>
+		<rob:joint-offset>0</rob:joint-offset>
+		<rob:immobile>false</rob:immobile>
+	</rob:link>
+</rob:robot-configuration>
